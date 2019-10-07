@@ -2,8 +2,8 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(i)
-  puts "In fizzbuzz ..................."
-    puts i 
+  puts "In fizzbuzz() ..."
+    print i 
     if i % 15 == 0
       puts "FizzBuzz"
       return "FizzBuzz"
