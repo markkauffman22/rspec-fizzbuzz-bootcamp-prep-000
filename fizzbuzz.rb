@@ -6,11 +6,11 @@ def fizzbuzz
   i = 0 
   while i <= 15
     puts i 
-    if i % 3 == 0
-      puts "Fizz"
-    elsif i % 5 == 0
+    if i % 15 == 0
+      puts "FizzBuzz"
+    elsif i % 3 == 0
       puts "Buzz"
-    elsif i % 15 == 0 
+    elsif i % 5 == 0 
       puts "FizzBuzz"
     else
       #return nil
