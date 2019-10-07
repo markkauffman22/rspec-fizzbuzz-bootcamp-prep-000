@@ -3,8 +3,7 @@
 
 def fizzbuzz(i)
   puts "In fizzbuzz ..................."
-  i = 1
-  while i <= 15
+  
     puts i 
     if i % 15 == 0
       puts "FizzBuzz"
