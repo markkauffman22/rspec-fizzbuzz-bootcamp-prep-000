@@ -13,8 +13,8 @@ def fizzbuzz
     elsif i % 5 == 0 
       puts "Buzz"
     else
-      #return nil
       puts "nil"
+      
     end 
     i += 1 
   end  
