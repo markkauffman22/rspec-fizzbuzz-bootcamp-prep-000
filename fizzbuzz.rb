@@ -8,17 +8,15 @@ def fizzbuzz
     puts i 
     if i % 3 == 0
       puts "Fizz"
-          i += 1 
     elsif i % 5 == 0
       puts "Buzz"
     elsif i % 15 == 0 
       puts "FizzBuzz"
-    else    
-      i += 1 
+    else
       #return nil
       puts "nil"
-    i += 1 
     end 
+    i += 1 
   end  
 end
 
