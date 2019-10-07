@@ -20,7 +20,7 @@ def fizzbuzz(i)
 end
 
 i = 1
-while i <= 15
+while i <= 100
  fizzbuzz(i)
    i += 1
 end
