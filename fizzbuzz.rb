@@ -22,5 +22,7 @@ def fizzbuzz(i)
   end  
 end
 
-fizzbuzz()
+i = 1
+while i <= 15
+ fizzbuzz(i)
 
