@@ -3,7 +3,6 @@
 
 def fizzbuzz(i)
   puts "In fizzbuzz ..................."
-  
     puts i 
     if i % 15 == 0
       puts "FizzBuzz"
@@ -18,11 +17,10 @@ def fizzbuzz(i)
       puts "nil"
       return nil
     end 
-    i += 1 
-  end  
 end
 
 i = 1
 while i <= 15
  fizzbuzz(i)
-
+   i += 1
+end
