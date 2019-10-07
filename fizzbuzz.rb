@@ -9,9 +9,9 @@ def fizzbuzz
     if i % 15 == 0
       puts "FizzBuzz"
     elsif i % 3 == 0
-      puts "Buzz"
+      puts "Fizz"
     elsif i % 5 == 0 
-      puts "FizzBuzz"
+      puts "Buzz"
     else
       #return nil
       puts "nil"
