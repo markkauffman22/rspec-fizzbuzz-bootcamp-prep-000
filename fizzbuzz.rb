@@ -6,7 +6,7 @@ def fizzbuzz
   i = 0 
   while i < 15
     puts i 
-    #if i % 3 == 0
+    if i % 3 == 0
       puts "Fizz"
     elsif i % 5 == 0
       puts "Buzz"
