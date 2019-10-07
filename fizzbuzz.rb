@@ -3,7 +3,7 @@
 
 def fizzbuzz
   puts "In fizzbuzz ..................."
-  i = 0 
+  i = 1
   while i <= 15
     puts i 
     if i % 15 == 0
