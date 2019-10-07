@@ -2,7 +2,7 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(i)
-  print "In fizzbuzz() ... "
+  print "In fizzbuzz() ==> "
   puts i 
     if i % 15 == 0
       puts "FizzBuzz"
