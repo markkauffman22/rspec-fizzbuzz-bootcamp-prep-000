@@ -6,13 +6,13 @@ def fizzbuzz(i)
     puts i 
     if i % 15 == 0
       puts "FizzBuzz"
-      return = "FizzBuzz"
+      return "FizzBuzz"
     elsif i % 3 == 0
       puts "Fizz"
-      return = "Fizz"
+      return "Fizz"
     elsif i % 5 == 0 
       puts "Buzz"
-      return = "Buzz"
+      return "Buzz"
     else
       puts "nil"
       return nil
