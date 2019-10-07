@@ -4,10 +4,12 @@
 def fizzbuzz
   puts "In fizzbuzz ..................."
   i = 1
+  out = ""
   while i <= 15
     puts i 
     if i % 15 == 0
       puts "FizzBuzz"
+      out = 
     elsif i % 3 == 0
       puts "Fizz"
     elsif i % 5 == 0 
