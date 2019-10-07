@@ -14,7 +14,7 @@ def fizzbuzz
       puts "Buzz"
     else
       puts "nil"
-      return nil
+      #return nil
     end 
     i += 1 
   end  
